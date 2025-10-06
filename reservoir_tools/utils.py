@@ -31,7 +31,7 @@ def nrmse(input_signal, target_signal):
     var = target_signal.std(ddof=1) ** 2
 
     error = (target_signal - input_signal) ** 2
-    return sp.sqrt(error.mean() / var)
+    return np.sqrt(error.mean() / var)
 
 
 def bisection(function, low, high, threshold=0, integer=False, atol=1e-5,
