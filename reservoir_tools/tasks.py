@@ -5,12 +5,8 @@ import warnings
 
 import numpy as np
 
-import sys
-sys.path.append('/home/sol/Escritorio/memory-encoding-GRN/reservoir_tools/')
-#sys.path.append('C:/Users/Maria/Desktop/CLEAN_paper_reservoir/reservoir_tools/')
-
-from readouts import RidgeRegression
-from utils import bisection
+from reservoir_tools.readouts import RidgeRegression
+from reservoir_tools.utils import bisection
 
 
 def k_memory_capacity(k, Ut, Xt, U, X):
