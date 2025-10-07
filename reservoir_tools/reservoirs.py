@@ -7,7 +7,7 @@ import numpy as np
 from scipy.spatial import distance
 import random
 
-from utils import get_spectral_radius
+from reservoir_tools.utils import get_spectral_radius
 
 
 def simulate_reservoir_dynamics(weights, input_weights, input_signal,
